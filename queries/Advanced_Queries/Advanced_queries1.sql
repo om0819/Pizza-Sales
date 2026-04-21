@@ -16,4 +16,4 @@ FROM
         JOIN
     order_details ON order_details.pizza_id = pizzas.pizza_id
 GROUP BY pizza_types.category
-ORDER BY revenue DESC; raunakl
+ORDER BY revenue DESC;
